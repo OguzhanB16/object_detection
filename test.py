@@ -3,7 +3,7 @@ import os
 import cv2
 from ultralytics import YOLO
 
-model_path = r"runs\detect\train-5\weights\best.pt"
+model_path = r"runs\detect\train\weights\best.pt"
 model = YOLO(model_path)
 
 path = "traffic_dataset/test/images"
