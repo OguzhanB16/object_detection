@@ -1,41 +1,19 @@
 # Python virtual environment
 .venv/
-venv/
-env/
 
 # Python cache
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
 
-# YOLO / Ultralytics
+# YOLO training outputs
 runs/
-weights/
+
+# Dataset
+traffic_dataset/
+
+# Model weights
 *.pt
 *.onnx
 
-# Dataset
-datasets/
-data/
-*.zip
-
-# Jupyter
-.ipynb_checkpoints/
-
 # VS Code
 .vscode/
-!.vscode/settings.json
-
-# Python environment
-.env
-
-# Logs
-*.log
-
-# OS files
-Thumbs.db
-.DS_Store
-
-# Temporary files
-*.tmp
-*.temp
